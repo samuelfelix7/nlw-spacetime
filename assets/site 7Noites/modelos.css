@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Thunder Bold';
+} /* Cor do Background, fonte e cor da fonte do texto da página */
+h1 {
+    text-align: center;
+    width: auto;
+} /* Centraliza o título "Qbraza" na página */
+section {
+    display: flex;
+    justify-content: center;
+} /*Alinha todos os elementos no centro da tela*/
+section a {
+    margin: 10px;
+    text-align: center;
+}
+section img {
+    width: 500px;
+    height: 600px;
+    cursor: pointer;
+} /* Redimensiona a imagem */
+section img:hover {
+    transition: .3s;
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px rgb(66, 10, 112),
+                0 0 30px rgb(66, 10, 112),
+                0 0 70px rgb(66, 10, 112)
+} /* Cria o efeito luminoso na seleção da imagem */
+@font-face {font-family: Thunder Bold; 
+    src: url('Thunder Bold.otf');
+} /* Localiza o arquivo da fonte instalada para aplicá-la à página */
+footer p {
+    text-align: justify;
+    font-family:Century Gothic;
+    margin: auto;
+    margin-left: 11%;
+    margin-right: 12%;
+} /* Edita o texto do rodapé da página */ 
+div footer {
+    display: inline-block;
+}

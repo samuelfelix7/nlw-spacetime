@@ -1,0 +1,47 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+footer img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    ;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+footer a:hover {
+    color: purple;
+}
+
+footer a {
+    cursor: pointer;
+}
