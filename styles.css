@@ -137,29 +137,27 @@ aside span {
   color: #9e9ea0;
 }
 
-// Configurações de responsividade (ajustes para dispositivos com tela menor ou mobile)
-@media (max-width: 768px) {
-   :root{
+@media (max-width: 768px){
+  :root {
     font-size: 14px;
-   } 
+  }
 
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.8fr;
-    grid-template-areas:
+    grid-template-areas: 
     "profile"
     "timeline";
-
-  }
+  } 
 
   aside {
     border-right: none;
-    padding: 32px;
-
+    padding: 32px 12px;
   }
 
   nav {
     overflow-y: visible;
     padding: 22px;
   }
+
 }
